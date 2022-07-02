@@ -34,6 +34,5 @@ public class GetQuiz : MonoBehaviour
         ans.Add(InputAnsTxt.text);
         quizTxt.text = "";
         ansTxt.text = "";
-
     }
 }
