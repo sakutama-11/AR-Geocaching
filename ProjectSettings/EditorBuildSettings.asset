@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Home.unity
+    guid: 4f9a7d01aaf844d3f8254f9dd182a45f
+  - enabled: 1
     path: Assets/ImmersalSDK/Samples/Scenes/MappingApp.unity
     guid: c248af4dffbfc36498566b9e4934d129
   - enabled: 0
@@ -23,6 +26,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/ImmersalSDK/Samples/Scenes/NavigationSampleNavMesh.unity
     guid: 98454a452db26144ca9d0692e148ed12
+  - enabled: 1
+    path: Assets/ImmersalSDK/Samples/Scenes/FindTreasure.unity
+    guid: 373b3fdc20831429ea79a7d7790c83ff
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: a71208f28aadf4aa28dda8b07bd02e62,
       type: 2}

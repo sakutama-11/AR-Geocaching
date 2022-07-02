@@ -16,7 +16,7 @@ using System;
 
 namespace Immersal.Samples.ContentPlacement
 {
-    public class ContentStorageManager : MonoBehaviour
+    public class FindTreasure : MonoBehaviour
     {
         [HideInInspector]
         public List<MovableContent> contentList = new List<MovableContent>();
@@ -28,8 +28,6 @@ namespace Immersal.Samples.ContentPlacement
         private GameObject m_PlacementButton = null;
         [SerializeField]
         private GameObject m_DeleteButton = null;
-        [SerializeField]
-        private GameObject m_CheckButton = null;
         [SerializeField]
         public Immersal.AR.ARSpace m_ARSpace;
         [SerializeField]
@@ -43,25 +41,25 @@ namespace Immersal.Samples.ContentPlacement
             public List<Vector3> positions;
         }
 
-        public static ContentStorageManager Instance
+        public static FindTreasure Instance
         {
             get
             {
 #if UNITY_EDITOR
                 if (instance == null && !Application.isPlaying)
                 {
-                    instance = UnityEngine.Object.FindObjectOfType<ContentStorageManager>();
+                    instance = UnityEngine.Object.FindObjectOfType<FindTreasure>();
                 }
 #endif
                 if (instance == null)
                 {
-                    Debug.LogError("No ContentStorageManager instance found. Ensure one exists in the scene.");
+                    Debug.LogError("No FindTreasure instance found. Ensure one exists in the scene.");
                 }
                 return instance;
             }
         }
 
-        private static ContentStorageManager instance = null;
+        private static FindTreasure instance = null;
 
         void Awake()
         {
@@ -71,7 +69,7 @@ namespace Immersal.Samples.ContentPlacement
             }
             if (instance != this)
             {
-                Debug.LogError("There must be only one ContentStorageManager object in a scene.");
+                Debug.LogError("There must be only one FindTreasure object in a scene.");
                 UnityEngine.Object.DestroyImmediate(this);
                 return;
             }
@@ -95,9 +93,6 @@ namespace Immersal.Samples.ContentPlacement
             if (m_DeleteButton) {
                 m_DeleteButton.SetActive(true);
             }
-            if (m_CheckButton) {
-                m_CheckButton.SetActive(true);
-            }
             if (m_PlacementButton) {
                 m_PlacementButton.SetActive(false);
             }
@@ -118,9 +113,6 @@ namespace Immersal.Samples.ContentPlacement
             }
             if (m_DeleteButton) {
                 m_DeleteButton.SetActive(false);
-            }
-            if (m_CheckButton) {
-                m_CheckButton.SetActive(false);
             }
             if (m_PlacementButton) {
                 m_PlacementButton.SetActive(true);
