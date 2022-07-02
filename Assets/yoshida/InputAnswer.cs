@@ -8,12 +8,12 @@ using UnityEngine.SceneManagement;
 
 public class InputAnswer : MonoBehaviour
 {
-    //InputField‚ğƒCƒ“ƒXƒyƒNƒ^[ã‚Åİ’u
+    //InputFieldï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½yï¿½Nï¿½^ï¿½[ï¿½ï¿½Åİ’u
     public InputField inputField;
-    //•\¦‚·‚étext
+    //ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½text
     public Text answerCheck;
-    //“š‚¦
-    private string ans = "‚Ó‚­‚´‚í‚ä‚«‚¿";
+    //ï¿½ï¿½ï¿½ï¿½
+    private string ans = "ãµãã–ã‚ã‚†ãã¡";
     public static bool isGetText;
 
     public static InputAnswer instance;   
@@ -31,24 +31,24 @@ public class InputAnswer : MonoBehaviour
 
     public void GetText()
     {
-        //‰Šú‰»
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         answerCheck = GetComponent<Text>();
 
-        //inputField‚É“ü—Í‚µ‚½•¶š—ñ‚ª³‰ğ‚È‚ç
+        //inputFieldï¿½É“ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ñ‚ªï¿½ï¿½ï¿½ï¿½È‚ï¿½
         if (inputField.text == ans)
         {
             Invoke("CheckReset", 1.5f);
-            Debug.Log("³‰ğ");
+            Debug.Log("ï¿½ï¿½ï¿½ï¿½");
             isGetText = true;
             Debug.Log(message: "SetText:" + isGetText);
         }
         else
         {
             Invoke("CheckReset", 1.5f);
-            answerCheck.text = "•s³‰ğ";
-            Debug.Log("•s³‰ğ");
+            answerCheck.text = "æ­£è§£ï¼";
+            Debug.Log("ï¿½sï¿½ï¿½ï¿½ï¿½");
             Debug.Log(message: "SetText:" + isGetText);
-            //Invoke("CheckReset", 1.5f);  ‚±‚±‚Éinvoke‚ ‚é‚Æƒ_ƒ‚Á‚Û‚¢
+            //Invoke("CheckReset", 1.5f);  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½invokeï¿½ï¿½ï¿½ï¿½Æƒ_ï¿½ï¿½ï¿½ï¿½ï¿½Û‚ï¿½
         }
 
     }
