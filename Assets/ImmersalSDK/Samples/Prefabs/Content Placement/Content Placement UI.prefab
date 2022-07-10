@@ -600,6 +600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1501678277877993571}
   - component: {fileID: 1501678277877993596}
+  - component: {fileID: 4672776000979559526}
   m_Layer: 5
   m_Name: Content Storage Manager
   m_TagString: Untagged
@@ -638,8 +639,22 @@ MonoBehaviour:
     type: 3}
   m_PlacementButton: {fileID: 1501678275849753304}
   m_DeleteButton: {fileID: 1501678277018891286}
+  m_CheckButton: {fileID: 0}
   m_ARSpace: {fileID: 0}
   m_Filename: content.json
+--- !u!114 &4672776000979559526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501678277877993597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4618be3e8af75a41993d6985ee62d7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ClickHoldTime: 0.1
 --- !u!1 &8641315910235312060
 GameObject:
   m_ObjectHideFlags: 0

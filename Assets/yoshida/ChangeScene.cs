@@ -14,6 +14,7 @@ public class ChangeScene : MonoBehaviour
     public void FindTreasure()
     {   
         SceneManager.LoadScene("FindTreasure");
+        Debug.Log("clicked!!!!!!!!");
     }
 
     // Update is called once per frame

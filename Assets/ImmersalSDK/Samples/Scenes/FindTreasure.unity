@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ARMap: {fileID: 0}
-  m_ContentManager: {fileID: 0}
+  m_ContentManager: {fileID: 2018965225}
 --- !u!114 &351429649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -426,7 +426,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 351429647}
-  m_CullTransparentMesh: 0
+  m_CullTransparentMesh: 1
 --- !u!224 &351429652
 RectTransform:
   m_ObjectHideFlags: 0
@@ -446,7 +446,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -256}
+  m_AnchoredPosition: {x: 0, y: -157}
   m_SizeDelta: {x: 740, y: 120}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &464978481
@@ -1892,7 +1892,7 @@ MonoBehaviour:
   m_BurstMode: 1
   m_UseGeoPoseLocalizer: 0
   m_UseServerLocalizer: 0
-  m_ShowPoints: 0
+  m_ShowPoints: 1
   m_MapIds: []
 --- !u!1 &1377195107
 GameObject:
@@ -2063,6 +2063,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: FindTreasureUI
       objectReference: {fileID: 0}
+    - target: {fileID: 1501678277877993596, guid: f9df48e3ce66a4a559829b4539185983,
+        type: 3}
+      propertyPath: m_ContentPrefab
+      value: 
+      objectReference: {fileID: 7479948556286149392, guid: 0baa47f8b078e4ce0b9ac7962cdd94d7,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9df48e3ce66a4a559829b4539185983, type: 3}
 --- !u!1 &1504989407
@@ -2525,6 +2531,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2018965225 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1501678277877993596, guid: f9df48e3ce66a4a559829b4539185983,
+    type: 3}
+  m_PrefabInstance: {fileID: 1383339621}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a917ddcf0673abb4eb3e7dc933bab754, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2056600021
 GameObject:
   m_ObjectHideFlags: 0
