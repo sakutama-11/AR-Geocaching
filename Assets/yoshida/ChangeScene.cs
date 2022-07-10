@@ -11,19 +11,14 @@ public class ChangeScene : MonoBehaviour
         
     }
 
-    void ChangeSceneCorrect()
+    public void FindTreasure()
     {   
-        SceneManager.LoadScene("yoshida_CorrectScene");
-        //Debug.Log("CorrectScene");
+        SceneManager.LoadScene("FindTreasure");
+        Debug.Log("clicked!!!!!!!!");
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log(message: "QuizScene" + InputAndBotton.instance.isGetText);
-        if(InputAnswer.isGetText == true)
-        {
-            ChangeSceneCorrect();
-        }
     }
 }

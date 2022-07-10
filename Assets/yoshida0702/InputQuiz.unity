@@ -901,10 +901,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8922f0eef19bb5e4f8a591d56b66e8a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InputQuizTxt: {fileID: 671153782}
-  InputAnsTxt: {fileID: 667282706}
-  quizTxt: {fileID: 1030078071}
-  ansTxt: {fileID: 1748725240}
 --- !u!1 &1030078069
 GameObject:
   m_ObjectHideFlags: 0

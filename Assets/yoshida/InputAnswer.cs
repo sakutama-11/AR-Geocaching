@@ -40,12 +40,15 @@ public class InputAnswer : MonoBehaviour
             Invoke("CheckReset", 1.5f);
             Debug.Log("����");
             isGetText = true;
+            answerCheck.text = "正解！";
+            SceneManager.LoadScene("CorrectScene");
             Debug.Log(message: "SetText:" + isGetText);
+            SceneManager.LoadScene("CorrectScene");
         }
         else
         {
             Invoke("CheckReset", 1.5f);
-            answerCheck.text = "正解！";
+
             Debug.Log("�s����");
             Debug.Log(message: "SetText:" + isGetText);
             //Invoke("CheckReset", 1.5f);  ������invoke����ƃ_�����ۂ�

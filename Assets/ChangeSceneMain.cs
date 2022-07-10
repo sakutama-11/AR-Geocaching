@@ -24,6 +24,6 @@ public class ChangeSceneMain : MonoBehaviour
     
     public void FindScene()
     {
-        SceneManager.LoadScene("FindTreasure");
+        SceneManager.LoadScene("QuizScene");
     }
 }

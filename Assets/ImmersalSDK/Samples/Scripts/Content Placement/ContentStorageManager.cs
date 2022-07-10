@@ -91,7 +91,7 @@ namespace Immersal.Samples.ContentPlacement
         public void AddContent()
         {
             Transform cameraTransform = Camera.main.transform;
-            GameObject go = Instantiate(m_ContentPrefab, cameraTransform.position + cameraTransform.forward, Quaternion.identity, m_ARSpace.transform);
+            GameObject go = Instantiate(m_ContentPrefab, cameraTransform.position + cameraTransform.forward, m_ContentPrefab.transform.rotation, m_ARSpace.transform);
             if (m_DeleteButton) {
                 m_DeleteButton.SetActive(true);
             }

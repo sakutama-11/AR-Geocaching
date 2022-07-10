@@ -536,6 +536,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1501678275849753310, guid: 35f0455c806a3ea46a135cce86ca3251,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1285832607}
+    - target: {fileID: 1501678275849753310, guid: 35f0455c806a3ea46a135cce86ca3251,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddContent
+      objectReference: {fileID: 0}
+    - target: {fileID: 1501678275849753310, guid: 35f0455c806a3ea46a135cce86ca3251,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Immersal.Samples.ContentPlacement.ContentStorageManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 1501678275849753311, guid: 35f0455c806a3ea46a135cce86ca3251,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -646,6 +661,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1501678277018891291, guid: 35f0455c806a3ea46a135cce86ca3251,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1285832607}
+    - target: {fileID: 1501678277018891291, guid: 35f0455c806a3ea46a135cce86ca3251,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DeleteAllContent
+      objectReference: {fileID: 0}
+    - target: {fileID: 1501678277018891291, guid: 35f0455c806a3ea46a135cce86ca3251,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Immersal.Samples.ContentPlacement.ContentStorageManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 1501678277877993596, guid: 35f0455c806a3ea46a135cce86ca3251,
         type: 3}
       propertyPath: m_ARSpace
@@ -656,6 +686,12 @@ PrefabInstance:
       propertyPath: m_CheckButton
       value: 
       objectReference: {fileID: 1974476502}
+    - target: {fileID: 1501678277877993596, guid: 35f0455c806a3ea46a135cce86ca3251,
+        type: 3}
+      propertyPath: m_ContentPrefab
+      value: 
+      objectReference: {fileID: 2054388818204631160, guid: c7af02cf8411a4cab811f1cd0dd45e67,
+        type: 3}
     - target: {fileID: 1501678277877993597, guid: 35f0455c806a3ea46a135cce86ca3251,
         type: 3}
       propertyPath: m_IsActive
