@@ -18,7 +18,7 @@ public class BackHome : MonoBehaviour
         
     }
     
-    public void PlacementScene()
+    public void HomeScene()
     {
         SceneManager.LoadScene("Home");
     }
