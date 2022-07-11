@@ -1892,7 +1892,7 @@ MonoBehaviour:
   m_BurstMode: 1
   m_UseGeoPoseLocalizer: 0
   m_UseServerLocalizer: 0
-  m_ShowPoints: 1
+  m_ShowPoints: 0
   m_MapIds: []
 --- !u!1 &1377195107
 GameObject:

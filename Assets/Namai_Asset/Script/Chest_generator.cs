@@ -112,7 +112,7 @@ public class Chest_generator : MonoBehaviour
                         id -= 1;
 
                         Chest_Pos = new Vector3(g.transform.position.x, g.transform.position.y, g.transform.position.z);
-                        Tre_Pos = new Vector3(g.transform.position.x, g.transform.position.y + 0.7f, g.transform.position.z - 0.7f);
+                        Tre_Pos = new Vector3(g.transform.position.x, g.transform.position.y + 0.3f, g.transform.position.z - 0.1f);
                         //Debug.Log(Chest_Pos);//�����󔠂̈ʒu���擾
                         Instantiate(Prefab_open_chest, Chest_Pos, Quaternion.Euler(-90f, 0.0f, -90f));
                         //�����󔠂̈ʒu�ɊJ�����󔠂𐶐�����
